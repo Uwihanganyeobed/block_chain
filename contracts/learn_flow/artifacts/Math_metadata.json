@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {},
+			"title": "Math\r Library for basic mathematical operations.\r"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/learn_flow/math.sol": "Math"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/learn_flow/math.sol": {
+			"keccak256": "0x239e484d42ae8e10960ddc54b0259083a0ccb53b80a833b8143209058671185b",
+			"urls": [
+				"bzzr://b9f70e86a14bdc28221b5cf591f9bc9d5bf573c778098399e1f7c696961e1f98"
+			]
+		}
+	},
+	"version": 1
+}

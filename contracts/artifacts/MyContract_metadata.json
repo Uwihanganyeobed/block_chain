@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_value1",
+						"type": "uint256"
+					},
+					{
+						"name": "_value2",
+						"type": "uint256"
+					}
+				],
+				"name": "calculate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Math.sol": {
+			"keccak256": "0x62fb1b4feff76cfd3c3d25958c91aa98e8c723a845226f3047153b11828e8c9d",
+			"urls": [
+				"bzzr://91aa7293d8f1de46b5bef673715420a23338631716f367d8e691651a95e22ae4"
+			]
+		},
+		"contracts/MyContract.sol": {
+			"keccak256": "0x7265ec5592635e3aeb703ae99fb4d1bbf5b45fbbb4dc5d9d59e211380056e96c",
+			"urls": [
+				"bzzr://23f2bbd0d9ca091c2009007001a9cf1d68353c6b9478d86190fcad30f733c1e9"
+			]
+		}
+	},
+	"version": 1
+}

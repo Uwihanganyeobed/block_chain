@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {},
+			"title": "DefaultValues\r Demonstrates setting default values in constructors.\r"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/learn_flow/defaultValues.sol": "DefaultValues"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/learn_flow/defaultValues.sol": {
+			"keccak256": "0xac8ce1a37f40ba93f257903b25319c432d097c3b74a1a97cfadbe65cb6e90aaa",
+			"urls": [
+				"bzzr://74f4c7de8c4752a6052137041b1126b14a4cf5c61f2aa7732eb4a3add56a2315"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_value1",
+						"type": "uint256"
+					},
+					{
+						"name": "_value2",
+						"type": "uint256"
+					}
+				],
+				"name": "calculate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {},
+			"title": "UsingLibraries\r Demonstrates the use of a library in Solidity.\r"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/learn_flow/uselibraries.sol": "UsingLibraries"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/learn_flow/math.sol": {
+			"keccak256": "0x239e484d42ae8e10960ddc54b0259083a0ccb53b80a833b8143209058671185b",
+			"urls": [
+				"bzzr://b9f70e86a14bdc28221b5cf591f9bc9d5bf573c778098399e1f7c696961e1f98"
+			]
+		},
+		"contracts/learn_flow/uselibraries.sol": {
+			"keccak256": "0xbf61884dcb753137050e639b5e40b7d3effdcf2895a60c4464973235b9ff286d",
+			"urls": [
+				"bzzr://27ca1bb52989aad8455272c80e53e06949ec88fb73cde42d2395b430c79172cf"
+			]
+		}
+	},
+	"version": 1
+}
